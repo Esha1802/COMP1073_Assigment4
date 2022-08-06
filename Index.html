@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Movie Search| COMP1073 Client-Side JavaScript</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <h1>Movie Explorer</h1>
+    <div>
+        <span>Ref 1: <a href="https://imdb-api.com/swagger/index.html">IMDB API</a></span>
+        <span>Ref 2: <a href="https://imdb-api.com/api#Search-header">IMDB API Document</a></span>
+        <span>Ref 3: <a href="https://levelup.gitconnected.com/all-possible-ways-of-making-an-api-call-in-plain-javascript-c0dee3c11b8b">API Tutorial</a></span>
+    </div>
+    <section>
+        <form id="movieForm">
+            <table>
+                <tr>
+                    <td>Type Movie Name: </td>
+                    <td>
+                        <input type="text" id="movieTitle" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <button type="button" id="searchBtn">Search Movie</button>
+                    </td>
+                </tr>
+                </tr>
+            </table>
+        </form>
+    </section>
+    <section id="resultSection">
+    </section>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
